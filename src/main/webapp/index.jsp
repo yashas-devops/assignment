@@ -10,16 +10,29 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f0f0f0;
             margin: 0;
+            background-color: yellow;
+            font-family: Arial, sans-serif;
         }
-        img {
-            max-width: 100%;
-            height: auto;
+        .logo {
+            font-size: 3em;
+            font-weight: bold;
+            color: black; /* Example color for "Blink" */
+            position: relative;
         }
+        .logo::after {
+            content: 'it';
+            color: green; /* Example color for "it" */
+            position: absolute;
+            left: 0.7em; /* Adjust position as needed */
+            top: 0;
+            font-size: 0.6em; /* Smaller font for "it" */
+            vertical-align: super; /* Raise "it" slightly */
+        }
+         
     </style>
 </head>
 <body>
-    <img src="https://via.placeholder.com/150" alt="Blinkit Logo">
+    <div class="logo">Blink</div>
 </body>
 </html>
