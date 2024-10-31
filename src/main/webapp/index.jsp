@@ -21,7 +21,7 @@
             position: relative;
         }
         .logo::after {
-            content: 'it';
+            content: 'IT';
             color: green; /* Example color for "it" */
             position: absolute;
             left: 0.7em; /* Adjust position as needed */
