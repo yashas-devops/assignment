@@ -21,12 +21,12 @@
             position: relative;
         }
         .logo::after {
-            content: 'IT';
+            content: 'it';
             color: green; /* Example color for "it" */
             position: absolute;
-            left: 0.7em; /* Adjust position as needed */
+            left: 1.6em; /* Adjust position as needed */
             top: 0;
-            font-size: 0.6em; /* Smaller font for "it" */
+            font-size: 1.5em; /* Smaller font for "it" */
             vertical-align: super; /* Raise "it" slightly */
         }
          
